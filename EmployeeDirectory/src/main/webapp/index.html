@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Employee Directory | Homepage</title>
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	</head>
+
+	
+<body   class="text-center"><br>
+
+	<h1 >Welcome to Employee Directory</h1><br>
+	<div class=" row justify-content-center ">
+		<div class = "col-auto">
+				<button type="button" class="btn btn-primary" onclick="window.location.href='views/add-employee.jsp'">ADD    EMPLOYEE</button>
+		</div>
+		<div class = "col-auto">
+			<form action = "listOfEmployees" method = "get">
+				<button type="submit" class="btn btn-warning" onclick="window.location.href='views/employeeList.jsp'">LIST OF EMPLOYEE</button>
+			</form>
+		</div>
+		<div class = "col-auto">
+				<button type="submit" class="btn btn-warning" onclick="window.location='views/delete-employee.jsp'">Delete Employee</button>
+		</div>
+		
+	</div><br><br>
+	<div class = "row justify-content-center">
+				<button type="submit" class="btn btn-danger" onclick="window.location='index1.html'">EXIT</button>
+		</div>
+</body>
+</html>
